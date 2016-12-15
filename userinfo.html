@@ -4,7 +4,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
 		<link rel="stylesheet" type="text/css" href="css/style1.css" />
-		<script src="js/tools/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<title></title>
 	</head>
 
@@ -41,10 +40,15 @@
     
     <div class="userlist" >
         <div class="contentlist" ><p class="pt20">收货地址</p></div>
-        <div class="contentlist" ><p class="pt20">我的订单</p></div>
-        <div class="contentlist" ><p class="pt20">切换账号</p></div>
-        <div class="contentlist" ><p class="pt20">退出登录</p></div>
+        <div class="contentlist"  id="myorder"><p class="pt20">我的订单</p></div>
+        <div class="contentlist bgn" ><p class="pt20">切换账号</p></div>
+        <div class="contentlist bgn" ><p class="pt20">退出登录</p></div>
      </div>
  </section>
+    <script type="text/javascript">
+    	document.getElementById("myorder").onclick=function(){
+    		location.href="orderpage1.html";
+    	}
+    </script>
 	</body>
 </html>

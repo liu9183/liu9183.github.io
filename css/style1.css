@@ -62,22 +62,24 @@ img {
 a {
 	color: #666;
 	text-decoration: none;
-	&:hover {
+}
+a:hover {
 		color: #0053a6;
 	}
-	;
-}
-
 li {
 	list-style-type: none;
 }
-
+.red {
+  color: red;
+  font-weight: bold; }
 .clear {
 	height: 1px;
 	overflow: hidden;
 	clear: both;
 }
-
+.bgn {
+    background: none !important; 
+}
 .fl {
 	float: left;
 }
@@ -1071,14 +1073,6 @@ li {
 	padding: 5px 0;
 	cursor: pointer;
 }
-
-/*.op_address_list li p span a {
-	display: block;
-	color: #666;
-	margin: 0 10px;
-	padding: 5px 0;
-}*/
-
 .op_address_list li p.new_line {
 	border-bottom: 1px solid #eaeaea;
 }
@@ -1132,3 +1126,137 @@ li {
 		width: 50px;
 	}
 }
+.themeblue {
+  background-color: #78b1f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2764b0), to(#78b1f8));
+  background-image: -webkit-linear-gradient(top, #2764b0, #78b1f8);
+  background-image: linear-gradient(to bottom, #2764b0, #78b1f8); }
+
+.themered, .topcenter {
+  background-color: #f34;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f34), to(#FD8C84));
+  background-image: -webkit-linear-gradient(top, #f34, #FD8C84);
+  background-image: linear-gradient(to bottom, #f34, #FD8C84); }
+
+.topcenter {
+  height: 120px;
+  width: 100%;
+  display: block; }
+
+.myorder {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 50px; }
+
+.userhead {
+  float: left;
+  margin: 30px 10px 0px 30px;
+  width: 68px; }
+
+.userhead img {
+  width: 68px;
+  height: 68px;
+  border-radius: 34px; }
+.nipic {
+  float: left;
+  margin: 38px 0px 0px  10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold; 
+}
+.dingd {
+  color: #f8cd71;
+  margin-top: 12px; }
+
+.orderbar {
+  overflow: hidden; }
+
+.orderbar li {
+  background: #f2f2f2;
+  float: left;
+  width: 25%;
+  height: 44px;
+  line-height: 24px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px; }
+
+.orderbar li a {
+  height: 44px;
+  display: block;
+  color: #333333; }
+
+.orderbar li span, .orderbar li a {
+  line-height: 44px; }
+
+.orderbar li.btn_2 a {
+  border-left: 1px solid #ccc; }
+
+.orderbar li.btn_3 a {
+  border-left: 1px solid #ccc; }
+
+.orderbar li.btn_4 a {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc; }
+
+.orderbar li span {
+  display: none;
+  display: block;
+  height: 44px;
+  border-left: 1px solid #ccc; }
+
+.orderbar li.active {
+  border-bottom: 0px;
+  background: none; }
+
+.orderbar li.active a {
+  display: none; }
+/*订单列表*/
+.order_form {
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  margin: 10px;
+  padding: 15px;
+  font-size: 14px;
+  color: #666;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+  background: -moz-linear-gradient(top, #fff, #ddd);
+  box-shadow: 0.1em 0.1em 0.1em #ccc inset; }
+
+.order_form .con {
+  margin: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.order_form .con p {
+  float: left;
+  line-height: 25px;
+  margin: 5px 5px 0 0; }
+
+.order_form .con p.ware_text {
+  float: none; }
+
+.order_form .con p.price span{
+  color: #f34; }
+.null_order {
+  text-align: center;
+  color: #ccc;
+  margin-top: 25px; }
+
+.null_order h4 {
+  text-indent: 10px;
+  font-size: 18px;
+  margin: 10px 0; }
+
+.null_order .order_pic {
+  background: url(../img/icon/order_pic.png) no-repeat center;
+  height: 100px;
+  background-size: contain; }
+.handle a {
+  margin-right: 5px; }
+
+.order_form img {
+  height: 60px; }
