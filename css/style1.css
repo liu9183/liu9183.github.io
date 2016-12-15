@@ -377,6 +377,7 @@ li {
 	margin-top: -45px;
 	background: url(../img/product/loading.gif) center center no-repeat;
 	background-size: 20px auto;
+	
 }
 
 .product li a .leftimages img {
@@ -385,7 +386,7 @@ li {
 }
 
 .product li a .productcontent {
-	width: 75%;
+	width: 70%;
 	width: calc(100% - 90px);
 	margin-top: -40px;
 }
