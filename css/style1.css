@@ -385,7 +385,7 @@ li {
 }
 
 .product li a .productcontent {
-	width: 64%;
+	width: 75%;
 	width: calc(100% - 90px);
 	margin-top: -40px;
 }
