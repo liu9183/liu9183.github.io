@@ -35,7 +35,7 @@ $(document).ready(function(){
         var $obj=$('#flydiv');
         
         if(!$obj.is(":animated")){
-        	 $obj.css({'left': x,'top': y}).animate({'left': X,'top': Y-80},300,function(){
+        	 $obj.css({'left': x,'top': y}).animate({'left': X,'top': Y-80},500,function(){
         	 	$obj.animate({'left': X+20,'top': Y,'opacity':0},500,function(){
         	 		 $obj.remove();
         	 		 var number=Number($(".cartnums").text());

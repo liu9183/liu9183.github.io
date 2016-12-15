@@ -180,10 +180,10 @@ li {
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: 100;
+	z-index: 1000;
 	background: #fafafa;
-	z-index: 999;
-	/*border: 1px solid red;*/
+
+
 }
 
 #nav .navlist {

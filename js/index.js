@@ -16,7 +16,10 @@ $(document).ready(function(){
         loop: true,
         autoplayDisableOnInteraction: true
     })
-    
-
-
+    $('#topSlider').click(function(){
+    	location.href="productlist.html";
+    })
+    $('.productcontent').click(function(){
+    	location.href="info.html";
+    })
 })
