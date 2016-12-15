@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<script src="js/tools/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tools/diqu2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<nav id="nav">
+			<ul class="navlist">
+				<li id="n_0"><a href="index.html"><span></span></a></li>
+				<li id="n_1"><a href="cart.html"><span class="active"></span></a><div class="cartnums" style="display: none;">0</div></li>
+				<li id="n_2"><a href="userinfo.html"><span></span></a></li>
+				<li id="n_3"><a href="productlist.html"><span></span></a></li>
+			</ul>
+		</nav>
+		<section class="addressinfo">
+        <ul  class="addresscontent" id="address_add" >
+                  <li>
+                      <p><input value="" name="consignee" placeholder="填写你的真实姓名" id="consignee" class="text" type="text"></p>
+                  </li>
+                  <li>
+                      <div id="region">
+                      <select name="sheng" id="s1"></select>
+                      <select name="shi" id="s2"></select>
+                      <select name="qu" id="s3"></select>
+                      </div>
+                  </li>
+                  <li>
+                      <p><input value="" name="address" id="address" placeholder="详细地址（不必重复填写地区）" class="text width1" type="text" /></p>
+                  </li>
+                  <li>
+                      <p><input value="" id="phone_mob" name="phone_mob" class="text" type="number" placeholder="手机或者电话"  /></p>
+                  </li>
+                  <li>
+                       <input class="submit_address" value="保存" type="button" />
+                  </li>
+        </ul>
+        <ul class="op_address_list mt20" id="addresslist">
+        	 <li>
+                    <p><em class="name">张三</em>(<em class="phone">15788888888</em>)</p>
+                    <p class="all-address">天津市&nbsp;市辖县&nbsp;静海县&nbsp;qwe</p>
+                    <p class="new_line"><br></p>
+                    <p class="address_action">
+                        <span class="edit"><i class="edit_icon"></i>编辑</a></span>
+                        <span class="delete"><i class="delete_icon"></i>删除</a></span>
+                    </p>
+            </li>
+        </ul>
+ </section>
+	</body>
+</html>
