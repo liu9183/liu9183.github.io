@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<header class="login_head">
+			<div class="login_head_info">
+				<div class="return" onclick="window.history.back()"></div>
+				<div class="login">登录</div>
+				<div class="register">
+					<a href="#">注册</a>
+				</div>
+			</div>
+
+		</header>
+
+		<section class="logging">
+			<ul class="bgf pl12 outborder">
+				<li class="pt12 pb12 border_bottom">
+					<s></s>
+					<input name="mobile" type="number" placeholder="请输入您的手机号" id="login_userName">
+					<s class="warn" id="pass1_error" style="display:none;"></s>
+				</li>
+				<li class="pt12 pb12">
+					<s class="logging_password"></s>
+					<input name="userpwd" type="password" placeholder="请输入您的密码" id="login_Password">
+					<s class="warn" id="pass_error" style="display:none;"></s>
+				</li>
+			</ul>
+			<div class="find_paw">
+				<a href="#">忘记密码？</a>
+			</div>
+			<div class="btn_wrap" id="login_user">
+				<span class="btn">登 录</span>
+			</div>
+			<div class="quick_register">
+				<div>
+					<a href="#">快速注册&gt;</a>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript">
+			document.getElementsByClassName('btn')[0].onclick=function(){
+				location.href="userinfo.html";
+			}
+		</script>
+	</body>
+
+</html>
