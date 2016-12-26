@@ -1341,7 +1341,7 @@ li {
 	margin: 15px;
 }
 
-.login_head {
+.login_head,.register_head {
 	box-shadow: 0 1px 3px #ccc;
 	height: 46px;
 	font-size: 1.8rem;
@@ -1351,7 +1351,7 @@ li {
 	z-index: 200;
 }
 
-.login_head_info {
+.login_head_info,.regist_head_info {
 	position: relative;
 	height: 46px;
 	overflow: hidden;
@@ -1381,7 +1381,7 @@ li {
 	height: 46px;
 }
 
-.login {
+.login,.reg{
 	float: left;
 	width: 100%;
 }
@@ -1478,4 +1478,26 @@ li {
 	background: url(../img/icon/warn.png) no-repeat 0 center;
 	background-size: 20px 20px;
 	margin-right: 0;
+}
+/*用户注册*/
+.registerinfo{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.registerinfo ul{
+	width: 100%;
+}
+.registerinfo ul li{
+	margin:20px 0;
+}
+.registerinfo ul li span{
+	font-family:"microsoft yahei";
+	font-size: 1.5rem;
+}
+.registerinfo ul li input{
+	border: none;
+	line-height: 30px;
+	width: calc(100% - 50px);
+	
 }
